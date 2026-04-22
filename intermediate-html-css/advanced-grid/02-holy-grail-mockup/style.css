@@ -66,14 +66,17 @@
 
 .nav {
   background-color: #C50208;
+  grid-column: 2;
+  
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+}
 
-  grid-column: 2;
-
+.nav ul {
+  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -82,8 +85,6 @@
   background-color: #bccbde;
 
   grid-column: 2;
-
-
 }
 
 .article p {
